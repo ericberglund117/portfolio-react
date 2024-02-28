@@ -1,5 +1,5 @@
 import React from 'react'
-// import WorkImg from '../assets'
+import Jimmychips from '../assets/projects/jimmychips.png'
 
 const Work = () => {
   return (
@@ -14,18 +14,35 @@ const Work = () => {
             {/* work container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                 {/* card item */}
-                <div className='shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${Jimmychips})`}} className='shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover effects */}
-                    <div>
-                        <span>
-
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-[#EFF6E0] tracking-wider'>
+                            React JS Application
                         </span>
-                       <div>
-                            <a href='/'>
-                                <button></button>
+                       <div className='pt-8 text-center'>
+                            <a href='https://jimmychipsgolf.com/' target='_blank' rel='noopener noreferrer'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='/'>
-                                <button></button>
+                            <a href='https://github.com/ericberglund117/jimmy-chips' target='_blank' rel='noopener noreferrer'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                       </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${Jimmychips})`}} className='shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-[#EFF6E0] tracking-wider'>
+                            React JS Application
+                        </span>
+                       <div className='pt-8 text-center'>
+                            <a href='https://jimmychipsgolf.com/' target='_blank' rel='noopener noreferrer'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/ericberglund117/jimmy-chips' target='_blank' rel='noopener noreferrer'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                        </div>
                     </div>

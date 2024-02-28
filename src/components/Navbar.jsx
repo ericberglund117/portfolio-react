@@ -41,22 +41,22 @@ const Navbar = () => {
            <div className= "hidden lg:flex fixed flex-col top-[35%] left-0">
             <ul>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0C66C2]">
-                    <a className=" flex justify-between items-center w-full text-gray-300" href="www.linkedin.com/in/eric-berglund117">
+                    <a className=" flex justify-between items-center w-full text-gray-300" href="/">
                         LinkedIn <FaLinkedin size={30} />
                     </a>
                 </li>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-                    <a className=" flex justify-between items-center w-full text-gray-300" href="www.linkedin.com/in/eric-berglund117">
+                    <a className=" flex justify-between items-center w-full text-gray-300" href="/">
                         Github <FaGithub size={30} />
                     </a>
                 </li>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EB5F28]">
-                    <a className=" flex justify-between items-center w-full text-gray-300" href="www.linkedin.com/in/eric-berglund117">
+                    <a className=" flex justify-between items-center w-full text-gray-300" href="/">
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#124559]">
-                    <a className=" flex justify-between items-center w-full text-gray-300" href="www.linkedin.com/in/eric-berglund117">
+                    <a className=" flex justify-between items-center w-full text-gray-300" href="/">
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>
