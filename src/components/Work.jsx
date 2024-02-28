@@ -1,5 +1,5 @@
 import React from 'react'
-import WorkImg from '../assets'
+// import WorkImg from '../assets'
 
 const Work = () => {
   return (
