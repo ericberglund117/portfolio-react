@@ -18,10 +18,10 @@ const About = () => {
             </div>
             <div>
               <p>I am a proactive, detail-oriented Frontend Engineer with a background in
-                software development and experience in updating test swuites for B2B SaaS applications. 
-                I have a passion for continuous learing, demonstrated through my independent study of new 
-                technologies, and strong communication skills developed through teaching and collaborating
-                with developers.</p>  
+                education and software development. I have experience in Quality Assurance Automation for B2B SaaS applications
+                and building user-focused applications. I have a passion for continuous learing, 
+                demonstrated through my independent study of new technologies, and strong communication 
+                skills developed through teaching and collaborating with developers.</p>  
             </div>
           </div>
       </div>
