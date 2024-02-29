@@ -7,7 +7,8 @@ const About = () => {
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi, this is what I look like.</p>
+              <p>Hi,</p>
+              <p>This is what I look like.</p>
             </div>
           <div>
             <img className='w-50 mx-auto pb-4 pr-4' src={Headshot} alt="Headshot" />
