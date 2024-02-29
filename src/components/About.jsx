@@ -1,4 +1,5 @@
 import React from 'react'
+import Headshot from '../assets/headshot.jpg'
 
 const About = () => {
   return (
@@ -10,7 +11,9 @@ const About = () => {
               About
             </p>
           </div>
-          <div></div>
+          <div>
+            <img className='w-50 mx-auto pb-4 pr-4' src={Headshot} alt="Headshot" />
+          </div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>

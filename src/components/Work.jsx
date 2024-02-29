@@ -3,7 +3,7 @@ import Jimmychips from '../assets/projects/jimmychips.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-[#01161e] bg-[#598392]'>
+    <div name='work' className='w-full md:h-screen text-[#01161e] bg-[#AEC3B0]'>
         {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
@@ -22,10 +22,10 @@ const Work = () => {
                         </span>
                        <div className='pt-8 text-center'>
                             <a href='https://jimmychipsgolf.com/' target='_blank' rel='noopener noreferrer'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#598392] text-[#EFF6E0] font-bold text-lg'>Demo</button>
                             </a>
                             <a href='https://github.com/ericberglund117/jimmy-chips' target='_blank' rel='noopener noreferrer'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#598392] text-[#EFF6E0] font-bold text-lg'>Code</button>
                             </a>
                        </div>
                     </div>
@@ -39,10 +39,10 @@ const Work = () => {
                         </span>
                        <div className='pt-8 text-center'>
                             <a href='https://jimmychipsgolf.com/' target='_blank' rel='noopener noreferrer'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#598392] text-[#EFF6E0] font-bold text-lg'>Demo</button>
                             </a>
                             <a href='https://github.com/ericberglund117/jimmy-chips' target='_blank' rel='noopener noreferrer'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#598392] text-[#EFF6E0] font-bold text-lg'>Code</button>
                             </a>
                        </div>
                     </div>
