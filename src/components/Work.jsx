@@ -1,6 +1,7 @@
 import React from 'react'
 import Jimmychips from '../assets/projects/jimmychips.png'
 import Matrimania from '../assets/projects/matrimaniaDash.png'
+import UnderConstruction from '../assets/projects/Under-Construction.jpg'
 
 const Work = () => {
   return (
@@ -36,12 +37,27 @@ const Work = () => {
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-[#EFF6E0] tracking-wider'>
-                            React JS Application
+                            Typescript Application
                         </span>
                        <div className='pt-8 text-center'>
                             <a href='https://github.com/ericberglund117/matrimania-client' target='_blank' rel='noopener noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#598392] text-[#EFF6E0] font-bold text-lg'>Code</button>
                             </a>
+                       </div>
+                    </div>
+                </div>
+                
+                <div style={{backgroundImage: `url(${UnderConstruction})`}} className='shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-[#EFF6E0] tracking-wider'>
+                            Next JS Application
+                        </span>
+                       <div className='pt-8 text-center'>
+                        Coming Soon
+                            {/* <a href='https://github.com/ericberglund117/matrimania-client' target='_blank' rel='noopener noreferrer'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#598392] text-[#EFF6E0] font-bold text-lg'>Code</button>
+                            </a> */}
                        </div>
                     </div>
                 </div>
