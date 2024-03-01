@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaMedium } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/eblogo.png';
@@ -90,6 +91,11 @@ const Navbar = () => {
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
                     <a className=" flex justify-between items-center w-full text-[#AEC3B0] font-bold" href="https://github.com/ericberglund117" target='_blank' rel='noopener noreferrer'>
                         Github <FaGithub size={30} />
+                    </a>
+                </li>
+                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EFF6E0]">
+                    <a className=" flex justify-between items-center w-full text-[#01161e] font-bold"  href='https://medium.com/@ericberglund117' target='_blank' rel='noopener noreferrer'>
+                        Blog <FaMedium size={30} />
                     </a>
                 </li>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EB5F28]">
