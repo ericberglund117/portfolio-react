@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaMedium } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/eblogo.png';
 import { Link } from 'react-scroll'
+import Resume from '../assets/EricB_Resume_general.pdf'
 
 const Navbar = () => {
 
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav)
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#01161e] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#01161e] text-[#EFF6E0]">
            <div>
              <img src={Logo} alt="Logo" style={{width: '50px'}} />
            </div> 
@@ -82,22 +84,27 @@ const Navbar = () => {
            <div className= "hidden lg:flex fixed flex-col top-[35%] left-0">
             <ul>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0C66C2]">
-                    <a className=" flex justify-between items-center w-full text-gray-300" href="/">
+                    <a className=" flex justify-between items-center w-full text-[#AEC3B0] font-bold" href="https://www.linkedin.com/in/eric-berglund117/" target='_blank' rel='noopener noreferrer' >
                         LinkedIn <FaLinkedin size={30} />
                     </a>
                 </li>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-                    <a className=" flex justify-between items-center w-full text-gray-300" href="/">
+                    <a className=" flex justify-between items-center w-full text-[#AEC3B0] font-bold" href="https://github.com/ericberglund117" target='_blank' rel='noopener noreferrer'>
                         Github <FaGithub size={30} />
                     </a>
                 </li>
+                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EFF6E0]">
+                    <a className=" flex justify-between items-center w-full text-[#01161e] font-bold"  href='https://medium.com/@ericberglund117' target='_blank' rel='noopener noreferrer'>
+                        Blog <FaMedium size={30} />
+                    </a>
+                </li>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EB5F28]">
-                    <a className=" flex justify-between items-center w-full text-gray-300" href="/">
+                    <a className=" flex justify-between items-center w-full text-[#01161e] font-bold"  href='mailto:edberglund117@gmail.com' >
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
-                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#124559]">
-                    <a className=" flex justify-between items-center w-full text-gray-300" href="/">
+                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#598392]">
+                    <a className=" flex justify-between items-center w-full text-[#01161e] font-bold" href={Resume} target='_blank' rel='noopener noreferrer'>
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>
