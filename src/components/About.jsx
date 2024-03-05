@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div name='about' className='w-full h-screen bg-[#AEC3B0] text-[#01161e]'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+        <div className='max-w-[850px] w-full grid grid-cols-2 gap-8'>
             <div className='sm:text-right text-4xl font-bold pl-4'>
                 <p>Hi, I'm Eric</p>
               <div className='opacity-0 hover:opacity-100'>
