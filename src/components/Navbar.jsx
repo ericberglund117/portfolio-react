@@ -5,7 +5,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/eblogo.png';
 import { Link } from 'react-scroll'
-import Resume from '../assets/EricB_Resume.pdf'
+import Resume from '../assets/Resume_EricB.pdf'
 
 const Navbar = () => {
 
